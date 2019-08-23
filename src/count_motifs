@@ -1,0 +1,2 @@
+# Usage : bash count_motif.sh <fastq> <motif>
+grep $2 $1 | wc -l
